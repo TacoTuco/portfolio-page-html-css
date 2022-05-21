@@ -1,0 +1,49 @@
+@media only screen and (max-width: 300px) {
+  #navbar ul {
+    border: 0px;
+    height: 500px;
+    float: none;
+    }
+  }
+
+#navbar {
+  background: #b2d5db;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_links {
+  padding: 30px;
+  width: 80px;
+}
+
+.nav_links:hover {
+  background: grey;
+  color: white;
+}
+
+#projects {
+  text-align: center;
+  font-size: 30px;
+}
+
+.project-li, .project-title {
+  text-align: center;
+}
